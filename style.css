@@ -1,0 +1,88 @@
+p{
+    color: brown;
+}
+div{
+    background-color: rgb(222, 222, 248);
+    background-repeat: repeat-x;
+}
+/* body{
+    background-color: azure;
+    background-image: url("https://yt3.googleusercontent.com/lqTQ61BGM-oXbjydJg2snVuCcdAPU59urGnDpvUSfknG9RYCPguUpW6uD9ORI-9aGwKSn7t45w=s900-c-k-c0x00ffffff-no-rj");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+} */
+/* body{
+    background-color: rgb(7, 43, 22);
+} */
+.border{
+    /* border-style: dashed;
+    border-width: 4px;
+    border-color: brown; */
+    border: 3px solid red;
+    border-radius: 5px;
+    margin: 45px;
+    padding: 30px;
+    height: 100px;
+    width: 50%;
+}
+.about{
+    border: 3px dotted red;
+    border-radius: 5px;
+    margin: 55px;
+    padding: 40px;
+    height: 50px;
+    width: 50%;
+    background-image: linear-gradient(red,yellow);
+}
+.text{
+    color: rgb(201, 18, 18);
+    background-color: aliceblue;
+    border: 3px solid black;
+    width: 50%;
+    margin: 50px;
+    padding: 40px;
+    background-image: linear-gradient(green,yellow);
+    text-align: center;
+    text-decoration-line: underline ;
+    text-decoration-color: black;
+    text-transform: uppercase;
+}
+.style{
+    color: tomato;
+    text-align: center;
+    text-decoration-line: underline ;
+    text-decoration-color: black;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(121, 240, 36);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+a:link{
+    text-decoration-line: none;
+}
+a:hover{
+    background-color: brown;
+    color: blue;
+    cursor: pointer;
+}
+ol{
+    list-style-type: lower-alpha;
+}
+.overflow{
+    border: 2px solid black;
+    height: 150px;
+    width: 75%;
+    /* overflow: scroll; */
+    overflow: hidden;
+}
+table ,th,td{
+    border: 3px solid black;
+}
+@media  (max-width:780px){
+    body{
+        background-color: rgb(255, 0, 0);
+    }
+}
